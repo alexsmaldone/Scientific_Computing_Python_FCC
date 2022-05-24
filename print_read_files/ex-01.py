@@ -1,4 +1,5 @@
 fh = open('mbox-short.txt')
 
 for lx in fh:
-  print(lx)
+  ly = lx.rstrip()
+  print(ly)
